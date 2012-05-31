@@ -15,6 +15,7 @@
 		7A9239291577CC67001497C3 /* MJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9239281577CC67001497C3 /* MJAppDelegate.m */; };
 		7A92392C1577CC67001497C3 /* MJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A92392B1577CC67001497C3 /* MJViewController.m */; };
 		7A92392F1577CC67001497C3 /* MJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A92392D1577CC67001497C3 /* MJViewController.xib */; };
+		7A92393A1577CCD3001497C3 /* MJYoutubePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9239391577CCD3001497C3 /* MJYoutubePlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		7A9239181577CC66001497C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7A92391A1577CC66001497C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A92391C1577CC66001497C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7A9239201577CC66001497C3 /* MJYoutubePlayerDemo-Info.plist */ = {isa = PBXFileReference; path = "MJYoutubePlayerDemo-Info.plist"; sourceTree = "<group>"; };
+		7A9239201577CC66001497C3 /* MJYoutubePlayerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MJYoutubePlayerDemo-Info.plist"; sourceTree = "<group>"; };
 		7A9239221577CC66001497C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A9239241577CC66001497C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7A9239261577CC66001497C3 /* MJYoutubePlayerDemo-Prefix.pch */ = {isa = PBXFileReference; path = "MJYoutubePlayerDemo-Prefix.pch"; sourceTree = "<group>"; };
-		7A9239271577CC67001497C3 /* MJAppDelegate.h */ = {isa = PBXFileReference; path = MJAppDelegate.h; sourceTree = "<group>"; };
+		7A9239261577CC66001497C3 /* MJYoutubePlayerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MJYoutubePlayerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7A9239271577CC67001497C3 /* MJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJAppDelegate.h; sourceTree = "<group>"; };
 		7A9239281577CC67001497C3 /* MJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJAppDelegate.m; sourceTree = "<group>"; };
-		7A92392A1577CC67001497C3 /* MJViewController.h */ = {isa = PBXFileReference; path = MJViewController.h; sourceTree = "<group>"; };
+		7A92392A1577CC67001497C3 /* MJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJViewController.h; sourceTree = "<group>"; };
 		7A92392B1577CC67001497C3 /* MJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJViewController.m; sourceTree = "<group>"; };
 		7A92392E1577CC67001497C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MJViewController.xib; sourceTree = "<group>"; };
+		7A9239381577CCD3001497C3 /* MJYoutubePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJYoutubePlayer.h; sourceTree = "<group>"; };
+		7A9239391577CCD3001497C3 /* MJYoutubePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJYoutubePlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		7A92391E1577CC66001497C3 /* MJYoutubePlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7A9239371577CCD3001497C3 /* Source */,
 				7A9239271577CC67001497C3 /* MJAppDelegate.h */,
 				7A9239281577CC67001497C3 /* MJAppDelegate.m */,
 				7A92392A1577CC67001497C3 /* MJViewController.h */,
@@ -97,6 +101,15 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		7A9239371577CCD3001497C3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7A9239381577CCD3001497C3 /* MJYoutubePlayer.h */,
+				7A9239391577CCD3001497C3 /* MJYoutubePlayer.m */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -164,6 +177,7 @@
 				7A9239251577CC66001497C3 /* main.m in Sources */,
 				7A9239291577CC67001497C3 /* MJAppDelegate.m in Sources */,
 				7A92392C1577CC67001497C3 /* MJViewController.m in Sources */,
+				7A92393A1577CCD3001497C3 /* MJYoutubePlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

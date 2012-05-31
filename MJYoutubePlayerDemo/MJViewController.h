@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class MJYoutubePlayer;
+
 @interface MJViewController : UIViewController
+
+@property (strong, nonatomic) MJYoutubePlayer *youtubePlayer;
 
 @end

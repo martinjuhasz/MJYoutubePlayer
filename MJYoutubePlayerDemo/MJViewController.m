@@ -7,12 +7,15 @@
 //
 
 #import "MJViewController.h"
+#import "MJYoutubePlayer.h"
 
 @interface MJViewController ()
 
 @end
 
 @implementation MJViewController
+
+@synthesize youtubePlayer;
 
 - (void)viewDidLoad
 {
@@ -29,6 +32,11 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (IBAction)playButtonClicked:(id)sender {
+    self.youtubePlayer = [[MJYoutubePlayer alloc] initWithVideoID:@"pkqzFUhGPJg"];
+    [self.youtubePlayer play];
 }
 
 @end
