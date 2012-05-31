@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A9239191577CC66001497C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9239181577CC66001497C3 /* UIKit.framework */; };
+		7A92391B1577CC66001497C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A92391A1577CC66001497C3 /* Foundation.framework */; };
+		7A92391D1577CC66001497C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A92391C1577CC66001497C3 /* CoreGraphics.framework */; };
+		7A9239231577CC66001497C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A9239211577CC66001497C3 /* InfoPlist.strings */; };
+		7A9239251577CC66001497C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9239241577CC66001497C3 /* main.m */; };
+		7A9239291577CC67001497C3 /* MJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9239281577CC67001497C3 /* MJAppDelegate.m */; };
+		7A92392C1577CC67001497C3 /* MJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A92392B1577CC67001497C3 /* MJViewController.m */; };
+		7A92392F1577CC67001497C3 /* MJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A92392D1577CC67001497C3 /* MJViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A9239141577CC66001497C3 /* MJYoutubePlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJYoutubePlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9239181577CC66001497C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A92391A1577CC66001497C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A92391C1577CC66001497C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A9239201577CC66001497C3 /* MJYoutubePlayerDemo-Info.plist */ = {isa = PBXFileReference; path = "MJYoutubePlayerDemo-Info.plist"; sourceTree = "<group>"; };
+		7A9239221577CC66001497C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A9239241577CC66001497C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A9239261577CC66001497C3 /* MJYoutubePlayerDemo-Prefix.pch */ = {isa = PBXFileReference; path = "MJYoutubePlayerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7A9239271577CC67001497C3 /* MJAppDelegate.h */ = {isa = PBXFileReference; path = MJAppDelegate.h; sourceTree = "<group>"; };
+		7A9239281577CC67001497C3 /* MJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJAppDelegate.m; sourceTree = "<group>"; };
+		7A92392A1577CC67001497C3 /* MJViewController.h */ = {isa = PBXFileReference; path = MJViewController.h; sourceTree = "<group>"; };
+		7A92392B1577CC67001497C3 /* MJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJViewController.m; sourceTree = "<group>"; };
+		7A92392E1577CC67001497C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MJViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A9239111577CC66001497C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9239191577CC66001497C3 /* UIKit.framework in Frameworks */,
+				7A92391B1577CC66001497C3 /* Foundation.framework in Frameworks */,
+				7A92391D1577CC66001497C3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A9239091577CC66001497C3 = {
+			isa = PBXGroup;
+			children = (
+				7A92391E1577CC66001497C3 /* MJYoutubePlayerDemo */,
+				7A9239171577CC66001497C3 /* Frameworks */,
+				7A9239151577CC66001497C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A9239151577CC66001497C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A9239141577CC66001497C3 /* MJYoutubePlayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A9239171577CC66001497C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A9239181577CC66001497C3 /* UIKit.framework */,
+				7A92391A1577CC66001497C3 /* Foundation.framework */,
+				7A92391C1577CC66001497C3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A92391E1577CC66001497C3 /* MJYoutubePlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7A9239271577CC67001497C3 /* MJAppDelegate.h */,
+				7A9239281577CC67001497C3 /* MJAppDelegate.m */,
+				7A92392A1577CC67001497C3 /* MJViewController.h */,
+				7A92392B1577CC67001497C3 /* MJViewController.m */,
+				7A92392D1577CC67001497C3 /* MJViewController.xib */,
+				7A92391F1577CC66001497C3 /* Supporting Files */,
+			);
+			path = MJYoutubePlayerDemo;
+			sourceTree = "<group>";
+		};
+		7A92391F1577CC66001497C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A9239201577CC66001497C3 /* MJYoutubePlayerDemo-Info.plist */,
+				7A9239211577CC66001497C3 /* InfoPlist.strings */,
+				7A9239241577CC66001497C3 /* main.m */,
+				7A9239261577CC66001497C3 /* MJYoutubePlayerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A9239131577CC66001497C3 /* MJYoutubePlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9239321577CC67001497C3 /* Build configuration list for PBXNativeTarget "MJYoutubePlayerDemo" */;
+			buildPhases = (
+				7A9239101577CC66001497C3 /* Sources */,
+				7A9239111577CC66001497C3 /* Frameworks */,
+				7A9239121577CC66001497C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJYoutubePlayerDemo;
+			productName = MJYoutubePlayerDemo;
+			productReference = 7A9239141577CC66001497C3 /* MJYoutubePlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A92390B1577CC66001497C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MJ;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7A92390E1577CC66001497C3 /* Build configuration list for PBXProject "MJYoutubePlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A9239091577CC66001497C3;
+			productRefGroup = 7A9239151577CC66001497C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A9239131577CC66001497C3 /* MJYoutubePlayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A9239121577CC66001497C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9239231577CC66001497C3 /* InfoPlist.strings in Resources */,
+				7A92392F1577CC67001497C3 /* MJViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A9239101577CC66001497C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9239251577CC66001497C3 /* main.m in Sources */,
+				7A9239291577CC67001497C3 /* MJAppDelegate.m in Sources */,
+				7A92392C1577CC67001497C3 /* MJViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A9239211577CC66001497C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A9239221577CC66001497C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A92392D1577CC67001497C3 /* MJViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A92392E1577CC67001497C3 /* en */,
+			);
+			name = MJViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A9239301577CC67001497C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A9239311577CC67001497C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A9239331577CC67001497C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJYoutubePlayerDemo/MJYoutubePlayerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MJYoutubePlayerDemo/MJYoutubePlayerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A9239341577CC67001497C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJYoutubePlayerDemo/MJYoutubePlayerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MJYoutubePlayerDemo/MJYoutubePlayerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A92390E1577CC66001497C3 /* Build configuration list for PBXProject "MJYoutubePlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9239301577CC67001497C3 /* Debug */,
+				7A9239311577CC67001497C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A9239321577CC67001497C3 /* Build configuration list for PBXNativeTarget "MJYoutubePlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9239331577CC67001497C3 /* Debug */,
+				7A9239341577CC67001497C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A92390B1577CC66001497C3 /* Project object */;
+}
